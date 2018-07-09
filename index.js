@@ -1,11 +1,7 @@
-const my = require('./car');
+// In the index.js file, be sure to require the module and console log a message about your car object, including the current speed of the car.
 
-console.log(my, ' this is the car');
+const car = require('./car');
 
-console.log(my.color, ' this is the color');
+console.log(car.speed, ' is the speed of the car');
 
-console.log(my.convertible, ' this is my convertible');
-
-console.log(my.speedAccelerate, ' this is the accelerated speed');
-
-console.log(my.speedDecelerate, ' this is the decelerated speed');
+// should say pink, true, 27 is the speed of the car
